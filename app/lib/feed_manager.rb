@@ -45,6 +45,10 @@ class FeedManager
     true
   end
 
+  def push_to_list(list_id, status)
+    # TODO
+  end
+
   def trim(type, account_id)
     timeline_key = key(type, account_id)
     reblog_key = key(type, account_id, 'reblogs')
